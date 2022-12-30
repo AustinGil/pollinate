@@ -1,0 +1,25 @@
+{
+  "name": "pollinate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doit": "node -r dotenv/config index.js",
+    "cy": "cypress open",
+    "pw": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-security": "^1.5.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "cypress": "^12.2.0",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "jsdom": "^20.0.3",
+    "nodemailer": "^6.8.0"
+  }
+}
